@@ -1,73 +1,154 @@
-# Welcome to your Lovable project
+# Welcome to your Lovable + TailAdmin React Project
 
-## Project info
+Created by [Jesse Freeman](https://jessefreeman.com) and [BFreeLabs](https://bfreelabs.com)
 
-**URL**: https://lovable.dev/projects/0ea40d62-99c1-4ac3-a158-ad01592bf429
+## Project Info
 
-## How can I edit this code?
+This project combines the power of [Lovable](https://lovable.dev) for AI-assisted development with the UI capabilities of the TailAdmin free admin dashboard template.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## How Can I Edit This Code?
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0ea40d62-99c1-4ac3-a158-ad01592bf429) and start prompting.
+You can work with this project in multiple ways:
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🧠 Use Lovable
 
-**Use your preferred IDE**
+Open the [Lovable Project](https://lovable.dev/projects/0ea40d62-99c1-4ac3-a158-ad01592bf429) and start prompting to generate or modify components.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Changes made via Lovable are automatically committed to the repo.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🛠 Use Your Preferred IDE Locally
 
-Follow these steps:
+Clone the repo and start developing using your favorite editor.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+#### Prerequisites
+
+- Node.js (18.x or later, Node 20.x+ recommended)
+- npm (or yarn)
+
+#### Steps
+
+```bash
+# 1. Clone the repo
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Install dependencies
+npm install
+# or
+yarn install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Start development
 npm run dev
+# or
+yarn dev
 ```
 
-**Edit a file directly in GitHub**
+### 🧑‍💻 Use GitHub Codespaces
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Go to your repo.
+2. Click **Code** > **Codespaces** tab > **New codespace**.
+3. Edit code in the browser.
+4. Push changes to update Lovable.
 
-**Use GitHub Codespaces**
+### ✍️ Edit Files in GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Navigate to any file in the repo.
+2. Click the **pencil icon**.
+3. Make your edits and commit.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## TailAdmin Overview
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+TailAdmin is a free and open-source admin dashboard template built with:
 
-## How can I deploy this project?
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS v4**
+- **ApexCharts**
+- **Radix UI**
+- **shadcn/ui**
 
-Simply open [Lovable](https://lovable.dev/projects/0ea40d62-99c1-4ac3-a158-ad01592bf429) and click on Share -> Publish.
+It provides prebuilt components and UI pages for dashboards, control panels, and internal tools.
 
-## Can I connect a custom domain to my Lovable project?
+![TailAdmin React.js Dashboard Preview](./banner.png)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- ⚡ Modern Vite + React 19 setup
+- 🎨 Fully styled with Tailwind CSS v4
+- 🎯 Components using Radix UI and shadcn/ui
+- 📊 Charts with ApexCharts
+- 🧩 Forms, Tables, Date Pickers
+- 🌒 Dark Mode included
+- 🔌 Supabase Integration Ready
+- 🔍 GPT Engineer loader (via Lovable)
+
+---
+
+## Deployment
+
+Publish your project directly via Lovable:
+
+1. Open [Lovable](https://lovable.dev/projects/0ea40d62-99c1-4ac3-a158-ad01592bf429)
+2. Click **Share** > **Publish**
+3. Optionally connect a custom domain in **Settings > Domains**
+
+For more: [Lovable Domain Setup Guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+---
+
+## Demos
+
+- [Free TailAdmin Version](https://free-react-demo.tailadmin.com/)
+- [PRO TailAdmin Version](https://react-demo.tailadmin.com)
+
+---
+
+## TailAdmin Version Changelog Highlights
+
+### 2.0.2 - Mar 25, 2025
+
+- React 19 upgrade
+- Flatpickr migration
+- Peer dep fixes
+
+### 2.0.1 - Feb 27, 2025
+
+- Tailwind CSS v4 upgrade
+- Style and syntax updates
+
+### 2.0.0 - Feb 2025
+
+- Complete redesign
+- New dashboards and sidebar
+- ApexCharts integration
+
+More at: [tailadmin.com/docs/update-logs/react](https://tailadmin.com/docs/update-logs/react)
+
+---
+
+## License
+
+This project includes code from:
+
+- **Lovable**, © [Lovable.dev](https://lovable.dev)
+- **TailAdmin** — MIT License
+  © [TailAdmin Team](https://tailadmin.com)
+
+> TailAdmin React.js Free Version is released under the MIT License.
+> You are free to use, modify, and distribute with attribution.
+
+---
+
+## Support
+
+If this project helped you:
+
+- ⭐ Star [TailAdmin on GitHub](https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
+- ✅ Share your Lovable app with others
+- 🧠 Keep building with AI at [lovable.dev](https://lovable.dev)
